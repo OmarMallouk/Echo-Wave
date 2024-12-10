@@ -5,25 +5,26 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A mobile app for ordering coffee on-the-go, making it easier for coffee lovers to get their favorite beverages without waiting in line.
+> EchoWave is a web app for songwriting assistant that helps users craft mood-based, genre-adaptive lyrics while ensuring originality and legal compliance.
 >
-> Coffee Express aims to streamline the coffee-ordering process by providing a user-friendly platform for customers to place orders and pick up their coffee at their convenience. We believe in enhancing the coffee experience by saving time and ensuring customer satisfaction.
+> The aim to revolutionize the songwriting process by providing a creative, AI-driven platform for lyricists and musicians.
 
 ### User Stories
-- As a user, I want to browse the menu, so I can find my favorite coffee drinks.
-- As a user, I want to customize my order, so I can add or remove ingredients according to my preferences.
-- As a user, I want to pay for my order through the app, so I can avoid waiting in line at the store.
+- As a user, I want to select a mood and genre, so I can generate lyrics that match the vibe of my song.
+- As a user, I want to specify a rhyming scheme, so the lyrics fit the structure of my composition.
+- As a user, I want to analyze the originality of my lyrics, so I can ensure they are unique and stand out.
+- As a user, I want to receive legal compliance feedback, so I can avoid potential copyright issues.
+- As a user, I want AI-suggested rewrites, so I can improve my lyrics while maintaining their essence.
 
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Echo Wave is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
+- This project uses ReactJS for the frontend, providing a dynamic and interactive user interface.For backend services, we use Node.js and Express for a fast, scalable, and efficient server-side environment.
+- The website's data is stored in MongoDB, a NoSQL database that allows for flexible storage and fast retrieval of user-generated content and AI-generated lyrics.
+- For AI-powered features, we integrate TensorFlow.js and other NLP (Natural Language Processing) algorithms to analyze, score, and suggest original lyrics.
 - The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
 
 <br><br>
@@ -31,9 +32,9 @@
 <img src="./readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed Echo Wave using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/KTO5YNtWnqntKQt9lz1Und/Readme-Template-Assets?node-id=0-1&node-type=canvas&t=K3Fkt6JTuEkfsDfe-0)
 
 
 ### Mockups
