@@ -2,3 +2,6 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/OmarMallouk/EchoWave-server.git
+[submodule "application"]
+	path = application
+	url = https://github.com/OmarMallouk/EchoWave-app.git
