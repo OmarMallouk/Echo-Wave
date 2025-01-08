@@ -18,7 +18,7 @@
 
 ## Song Producer
 - As a song producer, I want to select two lyrics and provide them to the AI, so it can rewrite them into a new, cohesive song.
-- As a song producer, I want to manage my Channel, where I can showcase my created songs, interact with followers, and receive feedback.
+- As a song producer, I want to manage my Channel, where I can showcase my created songs, and receive feedback.
 - As a song producer, I want to view insights and analytics about the performance of my songs, so I can understand how they are received by the audience.
 
 ## Admin
