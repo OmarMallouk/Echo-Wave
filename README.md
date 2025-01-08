@@ -11,17 +11,17 @@
 
 ### User Stories
 
-## User
+#### User
 - As a user, I want to select a mood and genre, so I can generate lyrics that match the vibe of my song.
 - As a user, I want to analyze the originality of my lyrics, so I can ensure they are unique and stand out.
 - As a user, I want AI-suggested rewrites, so I can improve my lyrics while maintaining their essence.
 
-## Song Producer
+#### Song Producer
 - As a song producer, I want to select two lyrics and provide them to the AI, so it can rewrite them into a new, cohesive song.
 - As a song producer, I want to manage my Channel, where I can showcase my created songs, and receive feedback.
 - As a song producer, I want to view insights and analytics about the performance of my songs, so I can understand how they are received by the audience.
 
-## Admin
+#### Admin
 - As an admin, I want to monitor and moderate content, so I can ensure all submitted lyrics and songs adhere to community guidelines.
 - As an admin, I want to handle user support requests and complaints, so I can provide timely and effective solutions.
 - As an admin, I want to handle user support requests and complaints, so I can provide timely and effective solutions.
