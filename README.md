@@ -59,7 +59,9 @@
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+| Users Model | Lyircs Model | Originality Model|
+| ---| ---| ---|
+| ![Landing](./readme/demo/UsersModel.png) | ![fsdaf](./readme/demo/LyricsModel.png) | ![fsdaf](./readme/demo/OriginalityModel.png) |
 
 
 <br><br>
