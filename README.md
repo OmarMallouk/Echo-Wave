@@ -50,7 +50,7 @@
 ### Mockups
 | Home screen  | Mood Screen | Profile Screen |
 | ---| ---| ---|
-| ![Landing](./readme/demo/HomePage.png.png) | ![fsdaf](./readme/demo/MoodPage.PNG.png) | ![fsdaf](./readme/demo/ProfilePage.PNG.png) |
+| ![Landing](./readme/demo/HomePage.png) | ![fsdaf](./readme/demo/MoodPage.png) | ![fsdaf](./readme/demo/ProfilePage.png) |
 
 <br><br>
 
