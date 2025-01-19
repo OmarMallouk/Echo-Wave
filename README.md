@@ -48,9 +48,9 @@
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
+| Home screen  | Mood Screen | Profile Screen |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Landing](./readme/demo/Home%20Page.png.png) | ![fsdaf](./readme/demo/Mood%20Page.PNG.png) | ![fsdaf](./readme/demo/Profile%20Page.PNG.png) |
 
 <br><br>
 
