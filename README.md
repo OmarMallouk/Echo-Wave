@@ -71,19 +71,21 @@
 <img src="./readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+### User Screens (Web)
+| Home screen | Register screen |
+| ---| ---| 
+| ![Landing](./readme/demo/implementation/HomePage.png) | ![fsdaf](./readme/demo/implementation/signUp.png)
+| Mood screen  | Originality Screen |
+| ---| ---| 
+| ![Landing](./readme/demo/implementation/moodGif.gif) | ![fsdaf](./readme/demo/implementation/originalityGif.gif)
 
-### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+### Song Producer Screens (Web)
+| Song Producer screen  | Channels Screen |
+| ---| ---| 
+| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/channels.png)
+| Song Producer Profile screen
+| ---| ---| 
+| ![Landing](./readme/demo/implementation/profilePage.PNG)
 
 <br><br>
 
@@ -91,9 +93,9 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+###  EchoWave:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project leverages AI to enhance the songwriting process by generating alternative lyrics based on user submissions, offering creative variations to match their desired mood or theme. Additionally, AI is used to merge two sets of lyrics, producing a song that combines elements from both inputs. These AI-driven features provide users with a powerful tool for exploring creativity and originality in music creation. By integrating AI, the project ensures a unique, personalized, and innovative songwriting experience.
 
 <br><br>
 
@@ -119,30 +121,90 @@
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up EchoWave locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+1. Ensure that Node.js and npm are installed on your system.
+
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
+2.  Ensure that you login inside Atlas and create a new project and after naming the project, create a new cluster then setup your connection inside the backend.
+
+3.  Ensure Git is installed for cloning the repository.
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### EchoWave-backend
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Clone the repo
+   git clone https://github.com/OmarMallouk/Echo-Wave.git
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3.  Configure Environment Variables Create a .env file in the root directory and provide the necessary values as follows:
+
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   MONGO_URI=mongodb+srv://username:dbpassowrd@cluster0.co4dp.mongodb.net/dbName_db?retryWrites=true&w=majority
+   make sure to change the above usernam, password, database name according to your mongo db data 
+   OPENAI_API_KEY=API_KEY
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+5. After completing the Setup navigate to the EchoWave-server and type the following:
+   ```sh
+  npm run serve 
+  or
+  npm run start
+  ```
+a successfull compile should give you the following message:
+  ``sh
+   Server running on port 8080 (depending on your port it may vary)
+   Connected to MongoDB Atlas
+
+6. Now you should also access the python server directory: src/modules/pythonModules:
+   ```sh
+   python multiServer.py
+   ```
+a successfull run should give you the following message:
+   ``sh
+   * Serving Flask app 'multiServer'
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000
+ * Debugger is active!
+ * Debugger PIN: 178-440-388
+   ``
+
+### EchoWave-frontend:
+
+1. assuming you have cloned the github repo navigate to the echoWave-app and type the following:
+   ``sh
+   npm install
+   ``
+
+2. After installing the necessary dependencies run the following command to initialize the website:
+   ``sh
+   npm run dev
+   ``
+a successfull run should give you the following message:
+  VITE v6.0.7  ready in 1111 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+🌼   daisyUI 4.12.23
+├─ ✔︎ 2 themes added            https://daisyui.com/docs/themes
+╰─ ★ Star daisyUI on GitHub     https://github.com/saadeghi/daisyui
+
+
+🌼   daisyUI 4.12.23
+├─ ✔︎ 2 themes added            https://daisyui.com/docs/themes
+╰─ ❤︎ Support daisyUI project:  https://opencollective.com/daisyui
+
+if not then make sure that you have installed all the dependencies mentioned in the package.json
+
