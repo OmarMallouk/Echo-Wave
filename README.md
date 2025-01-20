@@ -49,7 +49,7 @@
 
 ### Mockups
 | Home screen | Profile Screen |
-| ---| ---| ---|
+| ---| ---|
 | ![Landing](./readme/demo/HomePage.png) | ![fsdaf](./readme/demo/UserPage.png) |
 
 <br><br>
