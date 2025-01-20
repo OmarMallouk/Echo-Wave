@@ -82,7 +82,7 @@
 ### Song Producer Screens (Web)
 | Song Producer screen  | Channels Screen |
 | ---| ---| 
-| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/channels.png)
+| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/channels.PNG)
 | Song Producer Profile screen
 | ---| ---| 
 | ![Landing](./readme/demo/implementation/profilePage.PNG)
