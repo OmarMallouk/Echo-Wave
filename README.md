@@ -32,13 +32,13 @@
 
 ###  Echo Wave is built using the following technologies:
 
-- ["ReactJS"] is used for the frontend, providing a dynamic and interactive user interface.For backend services.
-- ["Node.js"] and ["Express"] are used for the backend, providing scalable, and efficient server-side environment.
-- The website's data is stored in ["MongoDB"], a NoSQL database that allows for flexible storage and fast retrieval of user-generated content and AI-generated lyrics.
-- For AI-powered features, TensorFlow.js is used and other NLP (Natural Language Processing) algorithms to analyze, score, and suggest original lyrics.
-- ["JWT"] is used for authentication to provide secure access to protected resources.
+- ["ReactJS"](https://react.dev/) - is used for the frontend, providing a dynamic and interactive user interface.For backend services.
+- ["Node.js"](https://nodejs.org/en) - and ["Express"](https://expressjs.com/) - are used for the backend, providing scalable, and efficient server-side environment.
+- The website's data is stored in ["MongoDB"](https://www.mongodb.com/) -, a NoSQL database that allows for flexible storage and fast retrieval of user-generated content and AI-generated lyrics.
+- For AI-powered features, [OpenAI](https://openai.com/) - Integrated to suggest original lyrics for the user.
+- ["JWT"](https://jwt.io/) - is used for authentication to provide secure access to protected resources.
 - The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
-- Machine learning models are trained using ["TensorFlow"] and ["scikit-learn"], with data processing and training handled separately, while the models are hosted on a Flask server and served through ["FastAPI"].
+- Machine learning models are trained using ["TensorFlow"](https://www.tensorflow.org/?authuser=1) - and ["scikit-learn"](https://scikit-learn.org/) -, with data processing and training handled separately, while the models are hosted on a Flask server and served through ["FastAPI"](https://fastapi.tiangolo.com/) -.
 
 <br><br>
 <!-- UI UX -->
