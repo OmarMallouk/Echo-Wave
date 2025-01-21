@@ -111,16 +111,6 @@
 
 <br><br>
 
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-###  Precision in Development: Harnessing the Power of Unit Testing:
-
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
-
-<br><br>
-
-
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
