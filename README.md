@@ -32,19 +32,22 @@
 
 ###  Echo Wave is built using the following technologies:
 
-- This project uses ReactJS for the frontend, providing a dynamic and interactive user interface.For backend services, we use Node.js and Express for a fast, scalable, and efficient server-side environment.
-- The website's data is stored in MongoDB, a NoSQL database that allows for flexible storage and fast retrieval of user-generated content and AI-generated lyrics.
-- For AI-powered features, we integrate TensorFlow.js and other NLP (Natural Language Processing) algorithms to analyze, score, and suggest original lyrics.
+- ["ReactJS"] is used for the frontend, providing a dynamic and interactive user interface.For backend services.
+- ["Node.js"] and ["Express"] are used for the backend, providing scalable, and efficient server-side environment.
+- The website's data is stored in ["MongoDB"], a NoSQL database that allows for flexible storage and fast retrieval of user-generated content and AI-generated lyrics.
+- For AI-powered features, TensorFlow.js is used and other NLP (Natural Language Processing) algorithms to analyze, score, and suggest original lyrics.
+- ["JWT"] is used for authentication to provide secure access to protected resources.
 - The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- Machine learning models are trained using ["TensorFlow"] and ["scikit-learn"], with data processing and training handled separately, while the models are hosted on a Flask server and served through ["FastAPI"].
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed Echo Wave using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> Echo Wave is designed using wireframes and mockups, iterating on the design until the ideal layout was reached for easy navigation and a friendly user experience.
 
-- Project Figma design [figma](https://www.figma.com/design/KTO5YNtWnqntKQt9lz1Und/Readme-Template-Assets?node-id=0-1&node-type=canvas&t=K3Fkt6JTuEkfsDfe-0)
+- Project Figma design [figma](https://www.figma.com/design/adR5j8ACHfDyoOaPNZjPis/EchoWave?node-id=14-59&p=f&t=sv7wiOeqeg40YBqp-0)
 
 
 ### Mockups
