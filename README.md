@@ -113,10 +113,10 @@
 
 | Create User | Get User |
 | ---| ---| 
-| ![Landing](./readme//demo/createUser.png) | ![fsdaf](./readme/demo/getUser.png)
+| ![Landing](./readme/demo/createUser.PNG) | ![fsdaf](./readme/demo/getUser.PNG)
 | Lyrics Mood Generation  | Lyrics Originality Check |
 | ---| ---| 
-| ![Landing](./readme/demo/moodGenerate.png) | ![fsdaf](./readme/demo/originalityModel.png)
+| ![Landing](./readme/demo/moodGenerate.PNG) | ![fsdaf](./readme/demo/similarityModel.PNG)
 
 <br><br>
 
