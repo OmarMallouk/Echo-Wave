@@ -99,7 +99,8 @@
 ###  EchoWave:
 
 - This project uses AI to enhance the songwriting process by generating alternative lyrics based on user submissions, offering creative variations to match their desired mood or theme. Additionally, AI is used to merge two sets of lyrics, producing a song that combines elements from both inputs. These AI-driven features provide users with a powerful tool for exploring creativity and originality in music creation. By integrating AI, the project ensures a unique, personalized, and innovative songwriting experience.
-| ![Landing](./readme/demo/prompt.png) 
+
+![Landing](./readme/demo/prompt.png) 
 
 <br><br>
 
