@@ -75,20 +75,17 @@
 
 
 ### User Screens (Web)
-| Home screen | Register screen |
+| Home | Register |
 | ---| ---| 
 | ![Landing](./readme/demo/implementation/HomePage.png) | ![fsdaf](./readme/demo/implementation/signUp.png)
-| Mood screen  | Originality Screen |
+| Mood Feature | Originality Feature |
 | ---| ---| 
 | ![Landing](./readme/demo/implementation/moodGif.gif) | ![fsdaf](./readme/demo/implementation/originalityGif.gif)
 
 ### Song Producer Screens (Web)
-| Song Producer screen  | Channels Screen |
+| Song Producer Feature  | Song Producer Profile |
 | ---| ---| 
-| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/channels.PNG)
-| Song Producer Profile screen
-| ---| ---| 
-| ![Landing](./readme/demo/implementation/profilePage.PNG)
+| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/profilePage.PNG)
 
 <br><br>
 
@@ -105,9 +102,18 @@
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+###  From Ideas to Innovation: AWS in AI Development
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project utilizes AWS services to deploy AI and Machine learning models, ensuring high availability, scalability, and performance.
+- API endpoints were tested using [Postman](https://www.postman.com/).
+- Backend URL: 35.181.154.194:8000
+
+| Create User | Get User |
+| ---| ---| 
+| ![Landing](./readme//demo/createUser.png) | ![fsdaf](./readme/demo/getUser.png)
+| Lyrics Mood Generation  | Lyrics Originality Check |
+| ---| ---| 
+| ![Landing](./readme/demo/moodGenerate.png) | ![fsdaf](./readme/demo/originalityModel.png)
 
 <br><br>
 
