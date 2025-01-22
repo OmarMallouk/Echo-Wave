@@ -78,14 +78,17 @@
 | Home | Register |
 | ---| ---| 
 | ![Landing](./readme/demo/implementation/HomePage.png) | ![fsdaf](./readme/demo/implementation/signUp.png)
-| Mood Feature | Originality Feature |
+| Mood Feature  | Originality Feature |
 | ---| ---| 
 | ![Landing](./readme/demo/implementation/moodGif.gif) | ![fsdaf](./readme/demo/implementation/originalityGif.gif)
 
 ### Song Producer Screens (Web)
-| Song Producer Feature  | Song Producer Profile |
+| Song Producer Feature  | Song Producer Profile screen |
 | ---| ---| 
-| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/profilePage.PNG)
+| ![Landing](./readme/demo/implementation/songProducerGif.gif) | ![fsdaf](./readme/demo/implementation/channels.PNG)
+| Song Producer Profile screen
+| ---| ---| 
+| ![Landing](./readme/demo/implementation/profilePage.PNG)
 
 <br><br>
 
